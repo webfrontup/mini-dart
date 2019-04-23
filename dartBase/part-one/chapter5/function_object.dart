@@ -30,3 +30,9 @@ List listTimes(List list ,String times(str)){
 String times(str){
   return str*3;
 }
+//Hello
+//1
+//2
+//3
+//4
+//[hhh, eee, lll, lll, ooo]

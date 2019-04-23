@@ -19,3 +19,8 @@ getPerson(name,age) => gender == 1 ? "name=$name,age=$age":"Test";
 printPerson(name,age){
   print("name=$name,age=$age");
 }
+
+//[]
+//name=张三,age=18
+//name=李四,age=20
+//null

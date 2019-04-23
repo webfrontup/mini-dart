@@ -8,13 +8,13 @@ void main(){
   int b = 5;
 
   b ??= 10; //??= : 如果前者有值则不赋值 反之赋值
-  print(b);
+  print(b); //5
 
   a += 2;
-  print(a);
+  print(a); //12
 
   a -= b;
-  print(a);
+  print(a); //7
 
   a *= b;
   print(a);// 35
