@@ -23,5 +23,5 @@ class Student extends Person{
 
   final String gender;
 
-  Student(String name,String g) : gender = g, super.withName(name);
+  Student(String name,String gs) : gender = gs, super.withName(name);
 }

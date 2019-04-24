@@ -12,6 +12,9 @@ void main() {
 
   var utils = new Utils();
   utils.put<int>(1);
+  utils.put<int>(2333);
+
+  print(list);
 }
 
 class Utils{

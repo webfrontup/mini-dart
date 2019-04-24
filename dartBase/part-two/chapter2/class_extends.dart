@@ -1,4 +1,4 @@
-import 'person.dart';
+import 'person.dart'; //引入了 Person类
 /**
  * @Author: 雷◕‿◕宇
  * @Description: 继承
@@ -24,6 +24,8 @@ void main() {
   }
 
   print(person);
+  person.run();
+  print(person.isAdult);
 }
 
 class Student extends Person{
@@ -32,7 +34,7 @@ class Student extends Person{
     print("Student study...");
   }
 
-  @override
+  @override //
   bool get isAdult => age > 15;
 
 
